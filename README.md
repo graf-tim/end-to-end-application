@@ -19,16 +19,18 @@ TODO
 | [Kaggle Car Features and MSRP](https://www.kaggle.com/datasets/CooperUnion/cardataset) | test1, test2 |
 
 ## Features Created
-TODO
 | Feature | Description |
 |---------|-------------|
-| room_per_m2 | Room / area |
-| price_per_m2 | Price / area (not used!) |
-| Luxurious, temporary, furnished | Extracted binary feature from description_raw if luxurious, temporary, furnished |
-| area_cat, area_cat_encoded | Encoded area into three groups:<br>0: 0 – 49 m²<br>1: 50 – 99 m²<br>2: 100 – 500 m² |
-| (LOFT), (POOL), (ATTIKA), (EXKLUSIV), (SEESICHT), (LUXURIÖS) | One hot encoding of feature Luxurious depending on type of luxurious |
-| Kreis 1-12 | One hot encoding of apartments in the city Zurich |
-| zurich_city | Binary feature if apartment is in the city Zurich |
+| manufacturer | One hot encoding of feature manufacturer |
+| model | One hot encoding of feature model |
+| Engine HP | Horsepower of the car. Merged with other dataset |
+| price_per_hp | Price / hp (not used!) |
+| age | 2025 - year (not used!) |
+| age_cat_encoded | age splitted into groups |
+| condition_good | one hot encoding of condition. (not used!) |
+| model_group | grouping of only top 20 models (not used!) |
+| type | one hot encoding of type. Coupe, SUV, etc.. |
+| transmission | one hot encoding of transmission. Automatic / manual / other |
 
 ## Model Training
 ### Amount of Data
