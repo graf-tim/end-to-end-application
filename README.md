@@ -9,7 +9,7 @@ TODO
 ### Name & URL
 | Name          | URL |
 |--------------|----|
-| Huggingface  | [Huggingface Space]() |
+| Huggingface  | [Huggingface Space](https://huggingface.co/spaces/graftim2/Used_Car_Price_Predictor) |
 | Code         | [GitHub Repository](https://github.com/graf-tim/end-to-end-application) |
 
 ## Data Sources and Features Used Per Source
