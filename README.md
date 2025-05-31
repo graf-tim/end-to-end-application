@@ -4,7 +4,7 @@
 Predicts Used Car Prices of cars in the USA.
 
 ## Results
-The Random Forest model demonstrates strong predictive performance, with a high training Score of 0.95 and a test Score of 0.67. The test RMSE of approximately 6,485 indicates a reasonably accurate estimation of car prices. The relatively small gap between training and test performance suggests only mild overfitting.
+The Random Forest model demonstrates strong predictive performance, with a high training Score of 0.95 and a test Score of 0.67. The test RMSE of approximately 6,485 indicates a reasonably accurate estimation of car prices. The relatively small gap between training and test performance suggests only mild overfitting. More Data needed for training.
 
 
 ### Name & URL
