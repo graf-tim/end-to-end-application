@@ -4,11 +4,11 @@ import numpy as np
 import joblib
 
 # Daten laden
-model = joblib.load("car_price_model.pkl")
-feature_names = joblib.load("car_model_features.pkl")
+model = joblib.load("model/car_price_model.pkl")
+feature_names = joblib.load("model/car_model_features.pkl")
 
 # Ursprüngliche Daten laden
-df = pd.read_csv("car_data_merged.csv")
+df = pd.read_csv("data/car_data_merged.csv")
 df = df[['year', 'odometer', 'Engine HP', 'manufacturer', 'model', 'transmission', 'type']].dropna()
 
 # Modell-Mapping: Hersteller → Modelle
